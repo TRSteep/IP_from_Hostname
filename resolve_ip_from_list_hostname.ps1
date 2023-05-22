@@ -1,4 +1,7 @@
-﻿#ByPass Restriction
+﻿#
+# Resolve IP from Hostnames in TXT files
+#
+#ByPass Restriction
 Set-ExecutionPolicy Bypass -Scope Process
 
 # Path
