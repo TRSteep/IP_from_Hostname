@@ -5,7 +5,7 @@
 Set-ExecutionPolicy Bypass -Scope Process
 
 # Path
-$Path = "C:\Media\dev\ps\Resolve_IP_from_DNS"
+$Path = $PSScriptRoot
 
 # DNS List
 $DNSList = Get-Content $Path\resolve_ip_from_list_hostname.txt -Encoding UTF8
