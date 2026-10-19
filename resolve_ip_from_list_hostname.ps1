@@ -20,7 +20,10 @@ foreach ($DNS in $DNSList) {
 }
 
 # Export XLX
-$FinalResult | Export-Excel -Path $Path\resolve_ip_from_list_hostname.xlsx 
+
+$Date = Get-Date -Format "yyyyMMdd"
+$OutputPath = "$Path\$Date`_resolve_ip_from_list_hostname.xlsx"
+$FinalResult | Export-Excel -Path $OutputPath
 
 # Print Result
 return $FinalResult

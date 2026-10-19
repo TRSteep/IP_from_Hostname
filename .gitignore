@@ -1,2 +1,4 @@
+# Contine AI plugin
+/.continue/
 # Excel files anywhere in the repository
 *.xlsx
